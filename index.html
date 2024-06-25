@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body id="login page">
+    <div class="content w-50 m-auto p-3 rounded-1">
+      <h1 class="text-center mt-3 mb-5">Smart Login System</h1>
+      
+        <div class="mb-4 mx-auto w-100 px-3">
+          <input
+            type="email"
+            class="form-control"
+            id="inputmail"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="mb-4 w-100 m-auto px-3">
+          <input
+            type="password"
+            class="form-control"
+            id="inputpass"
+            placeholder="Enter your password"
+          />
+          <p class="d-none mt-1" id="passmessage" style="color: red;" >Password is not true</p>
+        </div>
+        <div class="mb-4 w-100 m-auto px-3">
+          <button
+            type="submit"
+            class="mb-2 w-100 mx-auto d-block py-1 rounded-1"
+            id="loginbtn"
+          >
+         
+           <a  class="text-decoration-none text-white">Login</a>
+          </button>
+        </div>
+        <p class="text-center text-white fs-6 m-3 p-3">
+          Don’t have an account?
+          <a
+            href="./signup.html"
+            id="clickonsign"
+            class="text-decoration-none text-white border-bottom"
+            >Sign Up</a
+          >
+        </p>
+     
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="js/signscript.js"></script>
+  </body>
+</html>

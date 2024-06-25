@@ -1,0 +1,51 @@
+
+body{
+    background-color: #24353F;
+    position: relative;
+}
+.content
+{
+  
+   background-color: #24353F;
+      position: relative;
+      transform: translateY(20%);
+      h1{
+        color: #17A2B8;
+      }
+      box-shadow: 1px 3px 10px 1px;
+     
+   
+}
+button{
+    transition: 0.3s;
+    color: #17A2B8;
+    border: 1px solid #17A2B8 !important;
+    background-color: transparent !important;
+}
+button:hover{
+    background-color: #17A2B8 !important;
+    
+    color: white;
+}
+input::placeholder
+{
+      color:#dbcbcb!important;
+}
+input
+{
+    
+    background-color: transparent !important;
+   
+ 
+  
+}
+input:focus
+{
+    border: 1px solid #17A2B8 !important;
+    box-shadow: none !important;
+}
+.content div p{
+   
+    color: white;
+   
+}
